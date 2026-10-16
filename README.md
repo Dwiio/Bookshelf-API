@@ -131,20 +131,3 @@ bookshelf-api-submission/
 ├── package.json
 └── README.md
 ```
-
-## 8. Membuat ZIP untuk dikumpulkan
-
-Folder `node_modules` tidak perlu disertakan. Dari folder yang berisi proyek, jalankan:
-
-```bash
-zip -r Bookshelf-API-Dwirizki-Adithya-Putra.zip bookshelf-api-submission \
-  -x 'bookshelf-api-submission/node_modules/*' \
-     'bookshelf-api-submission/.git/*' \
-     '*/.DS_Store'
-```
-
-ZIP submission ini sudah disiapkan tanpa folder `node_modules`; dependency dapat dipasang kembali menggunakan `npm install`.
-
-## Catatan
-
-Penyimpanan sengaja menggunakan array di memori sesuai instruksi. Data akan hilang ketika proses server dihentikan atau dimulai ulang. Tidak ada database eksternal maupun penyimpanan JSON untuk data buku.
