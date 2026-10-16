@@ -4,6 +4,8 @@
 **Username Dicoding:** `dwi_rzkio0c8`  
 **Teknologi:** Node.js, Express.js, nanoid v3, penyimpanan array in-memory  
 **Port:** `9000`
+**Ini merupakan Project Akhir Back End Pemula dengan JavaScript**
+**https://www.dicoding.com/certificates/N9ZO0MR88XG5**
 
 ## 1. Persyaratan
 
